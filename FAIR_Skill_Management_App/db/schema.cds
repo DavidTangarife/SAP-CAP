@@ -29,9 +29,8 @@ entity EmployeeSkills : cuid {
 }
 entity Skills : cuid {
     skillCode: String(32);
-    description: String(128);
+    skill: String(128);
     parentSkill: Association to Skills;
-
 }
 entity Practices : cuid {
     practiceCode: String(3);
@@ -64,11 +63,11 @@ entity Employments : cuid {
     employment: String(32);
 }
 entity Roles : cuid {
-    RoleCode: String(8);
+    roleCode: String(8);
     role: String(32) ;
 }
 entity Seniorities : cuid {
-    SeniorityCode: String(8);
+    seniorityCode: String(8);
     seniority: String(32) ;
 }
 

@@ -1,0 +1,89 @@
+@baseUrl = http://localhost:4004
+
+# Get Service Document
+GET {{baseUrl}}/admin/$metadata
+### -----------------------------------------------
+
+# Post Practice
+POST {{baseUrl}}/admin/Practices
+Content-Type: application/json
+
+{
+    "practiceCode": "BAC",
+    "practice": "Back-Office"
+}
+### -----------------------------------------------
+
+# Post Office
+POST {{baseUrl}}/admin/Offices
+Content-Type: application/json
+
+{
+    "officeCode": "MEL",
+    "office": "Melbourne"
+}
+### -----------------------------------------------
+
+# Post seniority
+POST {{baseUrl}}/admin/Seniorities
+Content-Type: application/json
+
+{
+    "seniorityCode": "ASC",
+    "seniority": "Associate"
+}
+### -----------------------------------------------
+
+# Post Employment
+POST {{baseUrl}}/admin/Employments
+Content-Type: application/json
+
+{
+    "employmentCode": "INT",
+    "employment": "Intern"
+}
+### -----------------------------------------------
+
+# Post Role
+POST {{baseUrl}}/admin/Roles
+Content-Type: application/json
+
+{
+    "roleCode": "ADM",
+    "role": "Administrator"
+}
+### -----------------------------------------------
+
+# Post Employee
+POST {{baseUrl}}/admin/Employees
+Content-Type: application/json
+
+{
+    "firstName": "David",
+    "lastName": "Tangarife",
+    "practice": {"ID":"f12ea356-9be4-4858-bcf5-4bfbee3de1a3"},
+    "office": {"ID":"bf4aadc1-215d-4e96-98ef-df5000bc4c4b"},
+    "seniority": {"ID":"9920ad51-524e-42d8-953e-7e002235cbf4"}, 
+    "employment": {"ID":"1ad15457-e8b4-43bb-9c15-f1f552cafd6e"},
+    "role": {"ID":"d95f81a5-da34-49ff-8b60-be44852e4e08"},
+    "email": "david.tangarife@faircg.com",
+    "salary": 0
+}
+### -----------------------------------------------
+
+# Post Employment
+POST {{baseUrl}}/admin/Skills
+Content-Type: application/json
+
+{
+    "skillCode": "SAP-CAP",
+    "skill": "Cloud Application Programming Model",
+    "parentSkill": null
+}
+### -----------------------------------------------
+
+# Delete Employee
+DELETE {{baseUrl}}/admin/Employees('1764d78b-5d2a-4625-a36b-fe3e87046010')
+### -----------------------------------------------
+
+

@@ -14,14 +14,19 @@
     "@cap-js/cds-types": "^0.10.0"
   },
   "scripts": {
-    "start": "cds-serve"
+    "start": "cds-serve",
+    "watch-skillmanagement_app": "cds watch --open skillmanagement_app/webapp/index.html?sap-ui-xx-viewCache=false"
   },
   "cds": {
-  "requires": {
-    "db": {
-      "kind": "sqlite",
-      "model": "*"
+    "requires": {
+      "db": {
+        "kind": "sqlite",
+        "model": "*"
+      }
     }
-  }
-}
+  },
+  "sapux": [
+    "app/skillmanagement_app",
+    "app/skillmanagement_app"
+  ]
 }
