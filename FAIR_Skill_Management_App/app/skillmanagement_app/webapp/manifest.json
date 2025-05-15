@@ -92,6 +92,56 @@
           "pattern": "Employees({key}):?query:",
           "name": "EmployeesObjectPage",
           "target": "EmployeesObjectPage"
+        },
+        {
+          "name": "OfficesObjectPage",
+          "pattern": "Offices({OfficesKey}):?query:",
+          "target": "OfficesObjectPage"
+        },
+        {
+          "name": "SenioritiesObjectPage",
+          "pattern": "Seniorities({SenioritiesKey}):?query:",
+          "target": "SenioritiesObjectPage"
+        },
+        {
+          "name": "PracticesObjectPage",
+          "pattern": "Practices({PracticesKey}):?query:",
+          "target": "PracticesObjectPage"
+        },
+        {
+          "name": "SkillsObjectPage",
+          "pattern": "Skills({SkillsKey}):?query:",
+          "target": "SkillsObjectPage"
+        },
+        {
+          "name": "ProjectsObjectPage",
+          "pattern": "Projects({ProjectsKey}):?query:",
+          "target": "ProjectsObjectPage"
+        },
+        {
+          "name": "RolesObjectPage",
+          "pattern": "Roles({RolesKey}):?query:",
+          "target": "RolesObjectPage"
+        },
+        {
+          "name": "EmploymentsObjectPage",
+          "pattern": "Employments({EmploymentsKey}):?query:",
+          "target": "EmploymentsObjectPage"
+        },
+        {
+          "name": "StatusesObjectPage",
+          "pattern": "Statuses({StatusesKey}):?query:",
+          "target": "StatusesObjectPage"
+        },
+        {
+          "name": "LevelsObjectPage",
+          "pattern": "Levels({LevelsKey}):?query:",
+          "target": "LevelsObjectPage"
+        },
+        {
+          "name": "InterestsObjectPage",
+          "pattern": "Interests({InterestsKey}):?query:",
+          "target": "InterestsObjectPage"
         }
       ],
       "targets": {
@@ -108,9 +158,59 @@
                   "detail": {
                     "route": "EmployeesObjectPage"
                   }
+                },
+                "Offices": {
+                  "detail": {
+                    "route": "OfficesObjectPage"
+                  }
+                },
+                "Seniorities": {
+                  "detail": {
+                    "route": "SenioritiesObjectPage"
+                  }
+                },
+                "Practices": {
+                  "detail": {
+                    "route": "PracticesObjectPage"
+                  }
+                },
+                "Skills": {
+                  "detail": {
+                    "route": "SkillsObjectPage"
+                  }
+                },
+                "Projects": {
+                  "detail": {
+                    "route": "ProjectsObjectPage"
+                  }
+                },
+                "Roles": {
+                  "detail": {
+                    "route": "RolesObjectPage"
+                  }
+                },
+                "Employments": {
+                  "detail": {
+                    "route": "EmploymentsObjectPage"
+                  }
+                },
+                "Statuses": {
+                  "detail": {
+                    "route": "StatusesObjectPage"
+                  }
+                },
+                "Levels": {
+                  "detail": {
+                    "route": "LevelsObjectPage"
+                  }
+                },
+                "Interests": {
+                  "detail": {
+                    "route": "InterestsObjectPage"
+                  }
                 }
               },
-              "initialLoad": "Auto",
+              "initialLoad": "Enabled",
               "views": {
                 "paths": [
                   {
@@ -123,9 +223,9 @@
                     "entitySet": "Skills"
                   },
                   {
-                    "key": "tableView12",
+                    "key": "tableView12345",
                     "annotationPath": "com.sap.vocabularies.UI.v1.SelectionPresentationVariant#tableView",
-                    "entitySet": "Practices"
+                    "entitySet": "Projects"
                   },
                   {
                     "key": "tableView123",
@@ -133,9 +233,39 @@
                     "entitySet": "Seniorities"
                   },
                   {
+                    "key": "tableView12",
+                    "annotationPath": "com.sap.vocabularies.UI.v1.SelectionPresentationVariant#tableView",
+                    "entitySet": "Practices"
+                  },
+                  {
+                    "key": "tableView123456",
+                    "annotationPath": "com.sap.vocabularies.UI.v1.SelectionPresentationVariant#tableView",
+                    "entitySet": "Roles"
+                  },
+                  {
                     "key": "tableView1234",
                     "annotationPath": "com.sap.vocabularies.UI.v1.SelectionPresentationVariant#tableView",
                     "entitySet": "Offices"
+                  },
+                  {
+                    "key": "tableView1234567",
+                    "annotationPath": "com.sap.vocabularies.UI.v1.SelectionPresentationVariant#tableView",
+                    "entitySet": "Employments"
+                  },
+                  {
+                    "key": "tableView123456789",
+                    "annotationPath": "com.sap.vocabularies.UI.v1.SelectionPresentationVariant#tableView",
+                    "entitySet": "Levels"
+                  },
+                  {
+                    "key": "tableView12345678910",
+                    "annotationPath": "com.sap.vocabularies.UI.v1.SelectionPresentationVariant#tableView",
+                    "entitySet": "Interests"
+                  },
+                  {
+                    "key": "tableView12345678",
+                    "annotationPath": "com.sap.vocabularies.UI.v1.SelectionPresentationVariant#tableView",
+                    "entitySet": "Statuses"
                   }
                 ]
               }
@@ -150,6 +280,116 @@
             "settings": {
               "editableHeaderContent": false,
               "contextPath": "/Employees"
+            }
+          }
+        },
+        "OfficesObjectPage": {
+          "type": "Component",
+          "id": "OfficesObjectPage",
+          "name": "sap.fe.templates.ObjectPage",
+          "options": {
+            "settings": {
+              "navigation": {},
+              "contextPath": "/Offices"
+            }
+          }
+        },
+        "SenioritiesObjectPage": {
+          "type": "Component",
+          "id": "SenioritiesObjectPage",
+          "name": "sap.fe.templates.ObjectPage",
+          "options": {
+            "settings": {
+              "navigation": {},
+              "contextPath": "/Seniorities"
+            }
+          }
+        },
+        "PracticesObjectPage": {
+          "type": "Component",
+          "id": "PracticesObjectPage",
+          "name": "sap.fe.templates.ObjectPage",
+          "options": {
+            "settings": {
+              "navigation": {},
+              "contextPath": "/Practices"
+            }
+          }
+        },
+        "SkillsObjectPage": {
+          "type": "Component",
+          "id": "SkillsObjectPage",
+          "name": "sap.fe.templates.ObjectPage",
+          "options": {
+            "settings": {
+              "navigation": {},
+              "contextPath": "/Skills"
+            }
+          }
+        },
+        "ProjectsObjectPage": {
+          "type": "Component",
+          "id": "ProjectsObjectPage",
+          "name": "sap.fe.templates.ObjectPage",
+          "options": {
+            "settings": {
+              "navigation": {},
+              "contextPath": "/Projects"
+            }
+          }
+        },
+        "RolesObjectPage": {
+          "type": "Component",
+          "id": "RolesObjectPage",
+          "name": "sap.fe.templates.ObjectPage",
+          "options": {
+            "settings": {
+              "navigation": {},
+              "contextPath": "/Roles"
+            }
+          }
+        },
+        "EmploymentsObjectPage": {
+          "type": "Component",
+          "id": "EmploymentsObjectPage",
+          "name": "sap.fe.templates.ObjectPage",
+          "options": {
+            "settings": {
+              "navigation": {},
+              "contextPath": "/Employments"
+            }
+          }
+        },
+        "StatusesObjectPage": {
+          "type": "Component",
+          "id": "StatusesObjectPage",
+          "name": "sap.fe.templates.ObjectPage",
+          "options": {
+            "settings": {
+              "navigation": {},
+              "contextPath": "/Statuses"
+            }
+          }
+        },
+        "LevelsObjectPage": {
+          "type": "Component",
+          "id": "LevelsObjectPage",
+          "name": "sap.fe.templates.ObjectPage",
+          "options": {
+            "settings": {
+              "navigation": {},
+              "contextPath": "/Levels"
+            }
+          }
+        },
+        "InterestsObjectPage": {
+          "type": "Component",
+          "id": "InterestsObjectPage",
+          "name": "sap.fe.templates.ObjectPage",
+          "options": {
+            "settings": {
+              "navigation": {},
+              "contextPath": "/Interests"
             }
           }
         }

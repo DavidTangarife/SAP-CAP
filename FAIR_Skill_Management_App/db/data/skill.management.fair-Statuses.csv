@@ -1,0 +1,8 @@
+ID,statusCode,status
+45ea1ad4-dd1c-4047-9fc6-d94f53c05bf5,PEN,Pending
+6f1c67eb-9d40-4c0f-bd1c-429da6e1a300,APP,Approved
+1207bf5f-c513-4bb9-bf1a-2cee10bab837,CAN,Cancelled
+489f019a-de3e-4e2b-93e6-baa5d9b83286,HLD,On Hold
+28bb90ff-e2dd-425b-993d-b67609258db9,IPR,In Progress
+5055ac3e-76a8-46d7-afa0-ab396c87049b,COM,Completed
+e7fca876-12b7-480d-a52f-624d25274018,REJ,Rejected

@@ -20,6 +20,19 @@ service AdminService @(path: '/admin') {
     entity Statuses as projection on db.Statuses ;
 }
 
+annotate AdminService.Employees with @odata.draft.enabled;
+annotate AdminService.Skills with @odata.draft.enabled;
+annotate AdminService.Practices with @odata.draft.enabled;
+annotate AdminService.Seniorities with @odata.draft.enabled;
+annotate AdminService.Offices with @odata.draft.enabled;
+annotate AdminService.Projects with @odata.draft.enabled;
+annotate AdminService.Employments with @odata.draft.enabled;
+annotate AdminService.Roles with @odata.draft.enabled;
+annotate AdminService.Levels with @odata.draft.enabled;
+annotate AdminService.Interests with @odata.draft.enabled;
+annotate AdminService.Statuses with @odata.draft.enabled;
+
+
 // service ManagerService @(path: '/manager') {
 
 //     //CRUD operations for each entity

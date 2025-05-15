@@ -61,17 +61,17 @@ Content-Type: application/json
 {
     "firstName": "David",
     "lastName": "Tangarife",
-    "practice": {"ID":"f12ea356-9be4-4858-bcf5-4bfbee3de1a3"},
-    "office": {"ID":"bf4aadc1-215d-4e96-98ef-df5000bc4c4b"},
-    "seniority": {"ID":"9920ad51-524e-42d8-953e-7e002235cbf4"}, 
-    "employment": {"ID":"1ad15457-e8b4-43bb-9c15-f1f552cafd6e"},
-    "role": {"ID":"d95f81a5-da34-49ff-8b60-be44852e4e08"},
+    "practice": {"ID":"4e512a88-5755-40d5-824f-374ae30d4613"},
+    "office": {"ID":"dc3d6d9c-5594-4d99-be27-d322eb0e5198"},
+    "seniority": {"ID":"2181df80-8f97-4007-8660-20aef7c56d10"}, 
+    "employment": {"ID":"d22a2594-3b21-4c60-a862-fb6033c0dc0f"},
+    "role": {"ID":"ac9981ef-4957-44a4-a862-b3d246628d7e"},
     "email": "david.tangarife@faircg.com",
     "salary": 0
 }
 ### -----------------------------------------------
 
-# Post Employment
+# Post Skill
 POST {{baseUrl}}/admin/Skills
 Content-Type: application/json
 
@@ -83,7 +83,7 @@ Content-Type: application/json
 ### -----------------------------------------------
 
 # Delete Employee
-DELETE {{baseUrl}}/admin/Employees('1764d78b-5d2a-4625-a36b-fe3e87046010')
+DELETE {{baseUrl}}/admin/Employees('b13f2159-c6bb-4556-bbdc-d89e47e72818')
 ### -----------------------------------------------
 
 

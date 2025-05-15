@@ -1,0 +1,16 @@
+ID,seniorityCode,seniority	
+fec62de2-6d1a-4fa2-997f-dde00ec5e846,INT,Intern	
+0e536caf-af5f-46ee-8f25-857ee7cf4d56,JUN,Junior	
+05ebfd84-e0ff-439e-9820-e788d9948a76,MID,Mid-Level	
+8053fa72-e041-4f5b-bb98-ae647d22213b,SEN,Senior	
+617910b5-68f4-47ce-b35d-d2e083fd9a09,ASC,Associate	
+3d9c137c-db8c-434b-ab20-7db0eac45c02,CON,Consultant	
+2b294bd2-ec63-415c-a3d5-46e8758e4ba6,DIR,Director 	
+07d3849c-bc23-44ce-b0dd-4c07242d75a7,MAN,Manager	
+8cf948c6-1d63-4ac1-99a0-85abe509c45b,SCO,Senior Consultant	
+cf82f633-c172-46cd-9dea-3e36e5e34ca9,MCO,Manager Consultant	
+7d0ca683-49c3-4a17-8695-3046779594c4,PCO,Principal Consultant	
+2cd65fd2-4bdf-4e66-9d20-e5a0efe7a00d,CEO,Chief Executive Officer	
+457df42b-6663-46ea-9c4b-3993254d7045,CFO,Chief Financial Officer	
+73127fb5-3b5c-46ec-a629-3320a37cf37f,CTO,Chief Technology Officer	
+f1d78d76-4493-4341-bf58-07eb00d8c29a,COO,Chief Operating Officer	

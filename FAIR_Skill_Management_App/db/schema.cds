@@ -8,6 +8,7 @@ using {
 entity Employees : cuid, managed {
     firstName: String(16);
     lastName: String(16);
+    fullname: String = firstName || ' ' || lastName;
     practice: Association to Practices;
     office: Association to Offices;
     seniority: Association to Seniorities;
@@ -41,7 +42,7 @@ entity Offices : cuid {
     office: String(32);
 }
 entity Projects : cuid {
-    name: String(32);
+    name: String(64);
     customer: String(16);
     startDate: Date;
     endDate: Date;
@@ -112,11 +113,11 @@ entity Statuses : cuid {
 // }
 
 // type InterestCode : Integer enum {
-//     no_interest = 1;
-//     low_interest = 2;
+//     none = 1;
+//     low = 2;
 //     neutral = 3;
-//     interested = 4;
-//     highly_interested = 5;
+//     engaged = 4;
+//     high = 5;
 // }
 
 // type Seniority : String enum {
